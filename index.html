@@ -1,0 +1,2947 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Official website of Dr. Aditya Homeo Clinic, Darbhanga. Book appointments online, explore homeopathic treatments, and learn about natural healing approaches for various health conditions." />
+  <link rel="canonical" href="https://www.adityahomeoclinic.in" />
+  <title>Dr. Aditya Homeo Clinic - Holistic Healing Through Homeopathy</title>
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      /* Enhanced color palette */
+  --primary: #A8D5BA;
+  --primary-light: #CFE9D6; /* Softer, lighter green */
+  --primary-dark: #7FB293;  /* Deeper tone for hover/focus states */
+  --primary-gradient: linear-gradient(135deg, #A8D5BA 0%, #7FB293 100%);
+
+  --secondary: #FFFBE6;
+
+  --accent: #FFB6A3;
+  --accent-light: #FFD5CC;  /* Light peach tone */
+  --accent-dark: #E68C7A;   /* Stronger coral-pink for depth */
+  --accent-gradient: linear-gradient(135deg, #FFB6A3 0%, #E68C7A 100%);
+
+  --text-dark: #444444;
+  --text-medium: #666666;
+  --text-light: #999999;
+
+  --white: #FFFFFF;
+  --off-white: #FDFDFD;
+  --light-gray: #F5F5F5;
+  --border-light: #E0E0E0;
+      
+      /* Shadows */
+      --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.035);
+      --shadow-md: 0 5px 20px rgba(0, 0, 0, 0.06);
+      --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.08);
+      --shadow-primary: 0 5px 15px rgba(26, 111, 91, 0.2);
+      --shadow-accent: 0 5px 15px rgba(240, 183, 117, 0.25);
+      
+      /* Transitions */
+      --transition-fast: all 0.2s ease;
+      --transition-normal: all 0.3s ease;
+      --transition-slow: all 0.5s ease;
+      
+      /* Border Radius */
+      --radius-sm: 6px;
+      --radius-md: 12px;
+      --radius-lg: 20px;
+      --radius-full: 9999px;
+    }
+
+    /* Reset & Base Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 80px;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: var(--off-white);
+      color: var(--text-dark);
+      line-height: 1.7;
+      overflow-x: hidden;
+      font-size: 16px;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Playfair Display', serif;
+      font-weight: 600;
+      line-height: 1.3;
+      color: var(--text-dark);
+    }
+
+    p {
+      color: var(--text-medium);
+      margin-bottom: 1rem;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+      transition: var(--transition-normal);
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    .section {
+      padding: 6rem 0;
+      position: relative;
+    }
+
+    .section-sm {
+      padding: 4rem 0;
+    }
+
+    .section-wave {
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+      transform: rotate(180deg);
+    }
+
+    .section-wave svg {
+      position: relative;
+      display: block;
+      width: calc(100% + 1.3px);
+      height: 72px;
+      transform: rotateY(180deg);
+    }
+
+    .section-wave .shape-fill {
+      fill: var(--white);
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    /* Typography Enhancement */
+    .heading-xl {
+      font-size: clamp(2.5rem, 5vw, 4rem);
+      margin-bottom: 1.5rem;
+      font-weight: 700;
+    }
+
+    .heading-lg {
+      font-size: clamp(2rem, 4vw, 3rem);
+      margin-bottom: 1.5rem;
+    }
+
+    .heading-md {
+      font-size: clamp(1.5rem, 3vw, 2.2rem);
+      margin-bottom: 1rem;
+    }
+
+    .heading-sm {
+      font-size: clamp(1.2rem, 2vw, 1.5rem);
+      margin-bottom: 0.8rem;
+    }
+
+    .text-lg {
+      font-size: 1.2rem;
+    }
+
+    .text-md {
+      font-size: 1rem;
+    }
+
+    .text-sm {
+      font-size: 0.9rem;
+    }
+
+    .text-primary {
+      color: var(--primary);
+    }
+
+    .text-accent {
+      color: var(--accent-dark);
+    }
+
+    .text-muted {
+      color: var(--text-light);
+    }
+
+    .fw-light {
+      font-weight: 300;
+    }
+
+    .fw-normal {
+      font-weight: 400;
+    }
+
+    .fw-medium {
+      font-weight: 500;
+    }
+
+    .fw-bold {
+      font-weight: 600;
+    }
+
+    .fw-extrabold {
+      font-weight: 700;
+    }
+
+    .italic {
+      font-style: italic;
+    }
+
+    .uppercase {
+      text-transform: uppercase;
+    }
+
+    .letter-spacing {
+      letter-spacing: 1px;
+    }
+
+    /* Spacing Utilities */
+    .mb-1 {
+      margin-bottom: 0.5rem;
+    }
+
+    .mb-2 {
+      margin-bottom: 1rem;
+    }
+
+    .mb-3 {
+      margin-bottom: 1.5rem;
+    }
+
+    .mb-4 {
+      margin-bottom: 2rem;
+    }
+
+    .mb-5 {
+      margin-bottom: 3rem;
+    }
+
+    .mt-1 {
+      margin-top: 0.5rem;
+    }
+
+    .mt-2 {
+      margin-top: 1rem;
+    }
+
+    .mt-3 {
+      margin-top: 1.5rem;
+    }
+
+    .mt-4 {
+      margin-top: 2rem;
+    }
+
+    .mt-5 {
+      margin-top: 3rem;
+    }
+
+    .mx-auto {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* Enhanced Buttons */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.8rem 2rem;
+      font-weight: 500;
+      border-radius: var(--radius-full);
+      border: none;
+      cursor: pointer;
+      transition: var(--transition-normal);
+      text-align: center;
+      font-size: 0.95rem;
+      gap: 0.5rem;
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+    }
+
+    .btn:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -2;
+    }
+
+    .btn:before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.1);
+      transition: var(--transition-normal);
+      z-index: -1;
+    }
+
+    .btn:hover:before {
+      width: 100%;
+    }
+
+    .btn-primary {
+      background: var(--primary-gradient);
+      color: var(--white);
+      box-shadow: var(--shadow-primary);
+    }
+
+    .btn-primary:hover {
+      box-shadow: 0 7px 20px rgba(26, 111, 91, 0.3);
+      transform: translateY(-2px);
+    }
+
+    .btn-accent {
+      background: var(--accent-gradient);
+      color: var(--text-dark);
+      box-shadow: var(--shadow-accent);
+    }
+
+    .btn-accent:hover {
+      box-shadow: 0 7px 20px rgba(240, 183, 117, 0.35);
+      transform: translateY(-2px);
+    }
+
+    .btn-outline {
+      background: transparent;
+      border: 2px solid var(--primary);
+      color: var(--primary);
+    }
+
+    .btn-outline:hover {
+      background: var(--primary);
+      color: var(--white);
+    }
+
+    .btn-lg {
+      padding: 1rem 2.5rem;
+      font-size: 1.1rem;
+    }
+
+    .btn-sm {
+      padding: 0.6rem 1.5rem;
+      font-size: 0.85rem;
+    }
+
+    .btn-with-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+    }
+
+    .btn-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    /* Enhanced Header & Navigation */
+    .top-info-strip {
+      background-color: var(--primary-dark);
+      padding: 0.6rem 0;
+      color: rgba(255, 255, 255, 0.9);
+      font-size: 0.85rem;
+    }
+
+    .top-info-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .contact-info {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+    .contact-info a {
+      color: rgba(255, 255, 255, 0.9);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .contact-info a:hover {
+      color: var(--accent);
+    }
+
+    .social-links {
+      display: flex;
+      gap: 1rem;
+    }
+
+    .social-icon {
+      color: rgba(255, 255, 255, 0.8);
+      transition: var(--transition-normal);
+      font-size: 0.9rem;
+    }
+
+    .social-icon:hover {
+      color: var(--accent);
+      transform: translateY(-3px);
+    }
+
+    .header {
+      background-color: var(--white);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: var(--shadow-sm);
+      transition: var(--transition-normal);
+    }
+
+    .header.scrolled {
+      box-shadow: var(--shadow-md);
+    }
+
+    .nav-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 80px;
+      transition: var(--transition-normal);
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      z-index: 1001;
+    }
+
+    .logo img {
+      height: 50px;
+      width: auto;
+    }
+
+    .logo-text {
+      font-family: 'Playfair Display', serif;
+      font-weight: 600;
+      font-size: 1.5rem;
+      color: var(--primary);
+      line-height: 1.2;
+    }
+
+    .tagline {
+      font-size: 0.8rem;
+      color: var(--text-light);
+      display: block;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+    }
+
+    .nav-link {
+      position: relative;
+      font-weight: 500;
+      padding: 0.5rem 0;
+      font-size: 0.95rem;
+      color: var(--text-dark);
+    }
+
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background-color: var(--primary);
+      transition: var(--transition-normal);
+      opacity: 0;
+    }
+
+    .nav-link:hover, .nav-link.active {
+      color: var(--primary);
+    }
+
+    .nav-link:hover::after, .nav-link.active::after {
+      width: 100%;
+      opacity: 1;
+    }
+
+    .nav-cta {
+      margin-left: 1rem;
+    }
+
+    .mobile-menu-btn {
+      display: none;
+      background: none;
+      border: none;
+      color: var(--primary);
+      font-size: 1.5rem;
+      cursor: pointer;
+      z-index: 1001;
+    }
+
+    /* Enhanced Hero Section */
+    .hero {
+      position: relative;
+      background: linear-gradient(
+  rgba(168, 213, 186, 0.35),  /* Lighter green, more transparent */
+  rgba(127, 178, 147, 0.5)    /* Slightly deeper tone with modest opacity */
+),
+url('https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=800&q=80');
+      background-size: cover;
+      background-position: center;
+      color: var(--white);
+      padding: 10rem 0 8rem;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+      pointer-events: none;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .hero-subtitle {
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font-weight: 400;
+      color: var(--accent-light);
+      margin-bottom: 1.5rem;
+      font-size: 1rem;
+    }
+
+    .hero p {
+      color: rgba(255, 255, 255, 0.9);
+      margin-bottom: 2.5rem;
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .hero-decoration {
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+    }
+
+    .hero-decoration svg {
+      position: relative;
+      display: block;
+      width: calc(100% + 1.3px);
+      height: 80px;
+    }
+
+    .hero-decoration .shape-fill {
+      fill: var(--off-white);
+    }
+
+    /* Enhanced Features Strip */
+    .features-strip {
+      background-color: var(--off-white);
+      padding: 0;
+      margin-top: -40px;
+      position: relative;
+      z-index: 10;
+    }
+
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1px;
+    }
+
+    .feature-item {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 1.5rem;
+      background-color: var(--white);
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-sm);
+      transition: var(--transition-normal);
+      height: 100%;
+    }
+
+    .feature-item:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .feature-icon {
+      font-size: 1.5rem;
+      color: var(--primary);
+      background-color: var(--secondary);
+      width: 60px;
+      height: 60px;
+      border-radius: var(--radius-full);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      transition: var(--transition-normal);
+    }
+
+    .feature-item:hover .feature-icon {
+      background-color: var(--primary);
+      color: var(--white);
+    }
+
+    .feature-text {
+      font-weight: 500;
+      color: var(--text-dark);
+    }
+
+    .feature-text small {
+      display: block;
+      color: var(--text-light);
+      font-weight: normal;
+      font-size: 0.85rem;
+      margin-top: 0.2rem;
+    }
+
+    /* Section Headers */
+    .section-header {
+      margin-bottom: 4rem;
+      text-align: center;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .section-subtitle {
+      color: var(--primary);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+
+    .section-title {
+      margin-bottom: 1.5rem;
+      position: relative;
+      display: inline-block;
+    }
+
+    .section-title::after {
+      content: '';
+      position: absolute;
+      bottom: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80px;
+      height: 3px;
+      background: linear-gradient(to right, var(--primary), var(--accent));
+      border-radius: var(--radius-full);
+    }
+
+    .section-description {
+      color: var(--text-medium);
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 1.1rem;
+    }
+
+    /* Enhanced About Doctor Section */
+    .about-doctor {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 4rem;
+      align-items: center;
+    }
+
+    .doctor-img-container {
+      position: relative;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-lg);
+      transition: var(--transition-normal);
+    }
+
+    .doctor-img-container::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,0,0,0.7) 100%);
+      z-index: 1;
+    }
+
+    .doctor-img-container:hover {
+      transform: translateY(-10px);
+    }
+
+    .doctor-img {
+      width: 100%;
+      display: block;
+      transition: var(--transition-normal);
+    }
+
+    .doctor-img-container:hover .doctor-img {
+      transform: scale(1.05);
+    }
+
+    .doctor-experience {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      background-color: var(--primary);
+      color: white;
+      padding: 0.6rem 1.2rem;
+      border-radius: var(--radius-full);
+      font-weight: 500;
+      font-size: 0.9rem;
+      z-index: 2;
+    }
+
+    .doctor-content {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .doctor-name {
+      color: var(--primary);
+      margin-bottom: 0.2rem;
+    }
+
+    .doctor-qualification {
+      color: var(--text-medium);
+      font-style: italic;
+      font-size: 1.1rem;
+    }
+
+    .doctor-qualifications {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .doctor-qualifications li {
+      margin-bottom: 0.8rem;
+      padding-left: 1.8rem;
+      position: relative;
+    }
+
+    .doctor-qualifications li:before {
+      content: "\f058";
+      font-family: "Font Awesome 6 Free";
+      font-weight: 900;
+      position: absolute;
+      left: 0;
+      color: var(--primary);
+    }
+
+    .doctor-quote {
+      font-style: italic;
+      border-left: 3px solid var(--primary);
+      padding-left: 1.5rem;
+      margin-left: 0;
+      font-size: 1.1rem;
+      color: var(--text-dark);
+      line-height: 1.8;
+    }
+
+    /* Enhanced Service Cards */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 2.5rem;
+    }
+
+.service-card {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  transition: var(--transition-normal);
+  position: relative;
+  height: 100%;
+}
+
+
+
+    .service-card:hover {
+      transform: translateY(-10px);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .service-img-container {
+      position: relative;
+      overflow: hidden;
+      height: 220px;
+    }
+
+    .service-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: var(--transition-slow);
+    }
+
+    .service-card:hover .service-img {
+      transform: scale(1.1);
+    }
+
+    .service-content {
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      height: calc(100% - 220px);
+    }
+
+    .service-icon {
+      color: var(--primary);
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    .service-title {
+      color: var(--primary);
+      margin-bottom: 1rem;
+      font-size: 1.4rem;
+    }
+
+    .service-list {
+      list-style-type: none;
+      margin: 1.5rem 0;
+      padding: 0;
+    }
+
+    .service-list li {
+      margin-bottom: 0.7rem;
+      padding-left: 1.8rem;
+      position: relative;
+      font-size: 0.95rem;
+    }
+
+    .service-list li:before {
+      content: "\f00c";
+      font-family: "Font Awesome 6 Free";
+      font-weight: 900;
+      position: absolute;
+      left: 0;
+      color: var(--primary);
+    }
+
+    .service-footer {
+      margin-top: auto;
+      padding-top: 1.5rem;
+    }
+
+    /* Why Choose Us Cards */
+    .feature-card {
+      background-color: var(--white);
+      border-radius: var(--radius-lg);
+      padding: 2.5rem 2rem;
+      text-align: center;
+      box-shadow: var(--shadow-md);
+      transition: var(--transition-normal);
+      position: relative;
+      overflow: hidden;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-10px);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .feature-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 5px;
+      background: var(--primary-gradient);
+      transition: var(--transition-normal);
+    }
+
+    .feature-card:hover::before {
+      height: 10px;
+    }
+
+    .feature-card-img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: var(--radius-md);
+      margin-bottom: 1.5rem;
+    }
+
+    .feature-card-icon {
+      width: 80px;
+      height: 80px;
+      background-color: var(--secondary);
+      border-radius: var(--radius-full);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1.5rem;
+      font-size: 2rem;
+      color: var(--primary);
+      transition: var(--transition-normal);
+    }
+
+    .feature-card:hover .feature-card-icon {
+      background-color: var(--primary);
+      color: var(--white);
+      transform: rotateY(180deg);
+    }
+
+    .feature-card-title {
+      margin-bottom: 1rem;
+      color: var(--text-dark);
+    }
+
+    .feature-card-text {
+      color: var(--text-medium);
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    /* Enhanced Testimonials */
+    .testimonials-section {
+      background-color: var(--secondary);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .testimonials-section::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('https://images.unsplash.com/photo-1553101646-da1495bd14bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80');
+      background-position: center;
+      background-size: cover;
+      opacity: 0.05;
+      z-index: 0;
+    }
+
+    .testimonials-container {
+      position: relative;
+      z-index: 1;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .testimonials-header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    .testimonial-slider-container {
+      position: relative;
+      padding: 2rem 0;
+    }
+
+    .testimonial-slider {
+      display: flex;
+      gap: 2rem;
+      overflow-x: hidden;
+      scroll-snap-type: x mandatory;
+      scroll-behavior: smooth;
+    }
+
+    .testimonial-card {
+      flex: 0 0 calc(100% - 2rem);
+      scroll-snap-align: center;
+      background-color: var(--white);
+      border-radius: var(--radius-lg);
+      padding: 2.5rem;
+      box-shadow: var(--shadow-md);
+      position: relative;
+      display: flex;
+      flex-direction: column;
+    }
+
+    @media (min-width: 768px) {
+      .testimonial-card {
+        flex: 0 0 calc(50% - 1rem);
+      }
+    }
+    
+    @media (min-width: 1024px) {
+      .testimonial-card {
+        flex: 0 0 calc(33.333% - 1.333rem);
+      }
+    }
+
+    .testimonial-card::before {
+      content: '\201C';
+      font-family: Georgia, serif;
+      position: absolute;
+      top: 20px;
+      left: 25px;
+      font-size: 5rem;
+      color: var(--secondary);
+      line-height: 1;
+      z-index: 0;
+    }
+
+    .testimonial-content {
+      position: relative;
+      z-index: 1;
+    }
+
+    .testimonial-text {
+      font-style: italic;
+      margin-bottom: 1.5rem;
+      color: var(--text-medium);
+      position: relative;
+      z-index: 1;
+    }
+
+    .testimonial-author {
+      display: flex;
+      align-items: center;
+      margin-top: auto;
+      gap: 1rem;
+    }
+
+    .author-img {
+      width: 60px;
+      height: 60px;
+      border-radius: var(--radius-full);
+      object-fit: cover;
+      border: 3px solid var(--secondary);
+    }
+
+    .author-info {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .author-name {
+      font-weight: 600;
+      color: var(--text-dark);
+    }
+
+    .author-designation {
+      font-size: 0.85rem;
+      color: var(--text-light);
+    }
+
+    .testimonial-rating {
+      margin-top: 1rem;
+      color: var(--accent);
+      font-size: 0.9rem;
+    }
+
+    .slider-nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .slider-btn {
+      background-color: var(--white);
+      color: var(--primary);
+      border: none;
+      width: 50px;
+      height: 50px;
+      border-radius: var(--radius-full);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: var(--transition-normal);
+      box-shadow: var(--shadow-md);
+    }
+
+    .slider-btn:hover {
+      background-color: var(--primary);
+      color: var(--white);
+      transform: translateY(-3px);
+    }
+
+    .slider-dots {
+      display: flex;
+      gap: 0.5rem;
+      margin-top: 1.5rem;
+      justify-content: center;
+    }
+
+    .slider-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: var(--radius-full);
+      background-color: var(--light-gray);
+      transition: var(--transition-normal);
+      cursor: pointer;
+    }
+
+    .slider-dot.active {
+      width: 30px;
+      background-color: var(--primary);
+    }
+
+    /* Enhanced Appointment Section */
+    .appointment-section {
+      background-color: var(--off-white);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .appointment-section::before {
+      content: '';
+      position: absolute;
+      top: -150px;
+      right: -150px;
+      width: 400px;
+      height: 400px;
+      border-radius: var(--radius-full);
+      background-color: var(--secondary);
+      opacity: 0.4;
+      z-index: 0;
+    }
+
+    .appointment-section::after {
+      content: '';
+      position: absolute;
+      bottom: -100px;
+      left: -100px;
+      width: 300px;
+      height: 300px;
+      border-radius: var(--radius-full);
+      background-color: var(--secondary);
+      opacity: 0.4;
+      z-index: 0;
+    }
+
+    .booking-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 4rem;
+      align-items: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    .booking-content {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .booking-title {
+      color: var(--primary);
+    }
+
+    .booking-benefits {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .booking-benefits li {
+      margin-bottom: 1rem;
+      padding-left: 2.2rem;
+      position: relative;
+    }
+
+    .booking-benefits li:before {
+      content: "\f00c";
+      font-family: "Font Awesome 6 Free";
+      font-weight: 900;
+      position: absolute;
+      left: 0;
+      color: var(--primary);
+      background-color: var(--secondary);
+      width: 28px;
+      height: 28px;
+      border-radius: var(--radius-full);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.8rem;
+    }
+
+    .booking-form {
+      background-color: var(--white);
+      padding: 2.5rem;
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-lg);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .booking-form::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 5px;
+      background: var(--primary-gradient);
+    }
+
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: 500;
+      font-size: 0.95rem;
+      color: var(--text-dark);
+    }
+
+    .form-control {
+      width: 100%;
+      padding: 0.9rem 1.2rem;
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-md);
+      font-size: 1rem;
+      font-family: inherit;
+      transition: var(--transition-normal);
+      color: var(--text-dark);
+      background-color: var(--off-white);
+    }
+
+    .form-control:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(26, 111, 91, 0.1);
+      background-color: var(--white);
+    }
+
+    .form-control::placeholder {
+      color: var(--text-light);
+    }
+
+    /* Clinic Section */
+    .clinic-section {
+      background-color: var(--white);
+      padding: 6rem 0;
+      position: relative;
+    }
+
+    .clinic-images {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      margin-top: 3rem;
+    }
+
+    .clinic-image-wrap {
+      position: relative;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-md);
+      transition: var(--transition-normal);
+      height: 300px;
+    }
+
+    .clinic-image-wrap:hover {
+      transform: translateY(-10px);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .clinic-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: var(--transition-slow);
+    }
+
+    .clinic-image-wrap:hover .clinic-image {
+      transform: scale(1.05);
+    }
+
+    .clinic-caption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 1rem 1.5rem;
+      background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
+      color: white;
+      font-weight: 500;
+    }
+
+    /* Remedies & Wellness Section */
+    .remedies-section {
+      background-color: var(--off-white);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .remedies-tabs {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 3rem;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .tab-button {
+      padding: 0.8rem 1.5rem;
+      background-color: var(--white);
+      border: 2px solid var(--border-light);
+      color: var(--text-medium);
+      font-weight: 500;
+      border-radius: var(--radius-full);
+      cursor: pointer;
+      transition: var(--transition-normal);
+    }
+
+    .tab-button.active {
+      background-color: var(--primary);
+      border-color: var(--primary);
+      color: white;
+      box-shadow: var(--shadow-primary);
+    }
+
+    .tab-content {
+      display: none;
+      animation: fadeIn 0.5s ease-in-out;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    .remedies-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+
+    .remedy-item {
+      background-color: var(--white);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-md);
+      transition: var(--transition-normal);
+    }
+
+    .remedy-item:hover {
+      transform: translateY(-10px);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .remedy-img-container {
+      position: relative;
+      height: 200px;
+      overflow: hidden;
+    }
+
+    .remedy-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: var(--transition-slow);
+    }
+
+    .remedy-item:hover .remedy-img {
+      transform: scale(1.1);
+    }
+
+    .remedy-content {
+      padding: 1.5rem;
+    }
+
+    .remedy-title {
+      color: var(--primary-text);
+      margin-bottom: 0.5rem;
+      font-size: 1.3rem;
+    }
+
+    .remedy-text {
+      color: var(--text-medium);
+      margin-bottom: 0;
+      font-size: 0.95rem;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Enhanced FAQ Section */
+    .faq-section {
+      background-color: var(--white);
+    }
+
+    .faq-container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .faq-item {
+      margin-bottom: 1rem;
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      transition: var(--transition-normal);
+    }
+
+    .faq-item.active {
+      box-shadow: var(--shadow-md);
+      border-color: var(--primary-light);
+    }
+
+    .faq-question {
+      padding: 1.2rem;
+      background-color: var(--white);
+      font-weight: 500;
+      cursor: pointer;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      transition: var(--transition-normal);
+    }
+
+    .faq-question:hover {
+      background-color: var(--off-white);
+    }
+
+    .faq-question::after {
+      content: '\f107';
+      font-family: 'Font Awesome 6 Free';
+      font-weight: 900;
+      transition: var(--transition-normal);
+      font-size: 1.2rem;
+      color: var(--primary);
+    }
+
+    .faq-question.active {
+      background-color: var(--off-white);
+      color: var(--primary);
+    }
+
+    .faq-question.active::after {
+      transform: rotate(180deg);
+    }
+
+    .faq-answer {
+      padding: 0;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease, padding 0.3s ease;
+    }
+
+    .faq-answer-inner {
+      padding: 0 1.2rem;
+    }
+
+    .faq-question.active + .faq-answer {
+      padding: 0 0 1.2rem;
+      max-height: 1000px;
+    }
+
+    /* Enhanced Contact Section */
+    .contact-section {
+      background-color: var(--secondary);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .contact-section::before {
+      content: '';
+      position: absolute;
+      width: 300px;
+      height: 300px;
+      background-color: var(--primary);
+      opacity: 0.05;
+      border-radius: var(--radius-full);
+      top: -150px;
+      right: -150px;
+      z-index: 0;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      position: relative;
+      z-index: 1;
+    }
+
+    .contact-info-box {
+      background-color: var(--white);
+      padding: 2rem;
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-md);
+      transition: var(--transition-normal);
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      height: 100%;
+    }
+
+    .contact-info-box:hover {
+      transform: translateY(-10px);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .contact-icon {
+      font-size: 1.8rem;
+      color: var(--white);
+      background: var(--primary-gradient);
+      width: 70px;
+      height: 70px;
+      border-radius: var(--radius-full);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 0.5rem;
+      transition: var(--transition-normal);
+      box-shadow: var(--shadow-primary);
+    }
+
+    .contact-info-box:hover .contact-icon {
+      transform: rotateY(180deg);
+    }
+
+    .contact-detail {
+      font-weight: 600;
+      color: var(--primary);
+    }
+
+    .contact-text {
+      color: var(--text-light);
+      margin-bottom: 0;
+    }
+
+    .contact-text a {
+      display: block;
+      margin-bottom: 0.5rem;
+      color: var(--text-medium);
+      transition: var(--transition-normal);
+    }
+
+    .contact-text a:hover {
+      color: var(--primary);
+    }
+
+    .map-container {
+      margin-top: 3rem;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-lg);
+      position: relative;
+      z-index: 1;
+    }
+
+    .map-container iframe {
+      width: 100%;
+      height: 450px;
+      border: 0;
+      display: block;
+    }
+
+    /* Enhanced Footer */
+    .footer {
+      background-color: var(--primary-dark);
+      color: rgba(255, 255, 255, 0.7);
+      padding: 5rem 0 0;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .footer::before {
+      content: '';
+      position: absolute;
+      width: 400px;
+      height: 400px;
+      background: radial-gradient(circle, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0) 70%);
+      top: -200px;
+      right: -200px;
+      border-radius: var(--radius-full);
+      pointer-events: none;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 3rem;
+    }
+
+    .footer-col h4 {
+      color: var(--white);
+      margin-bottom: 1.5rem;
+      position: relative;
+      display: inline-block;
+      font-size: 1.3rem;
+    }
+
+    .footer-col h4::after {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+      width: 40px;
+      height: 3px;
+      background: var(--accent);
+    }
+
+    .footer-about-text {
+      margin-bottom: 1.5rem;
+      line-height: 1.7;
+    }
+
+    .footer-links {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .footer-links li {
+      margin-bottom: 0.8rem;
+    }
+
+    .footer-links a {
+      color: rgba(255, 255, 255, 0.7);
+      transition: var(--transition-normal);
+      display: block;
+      position: relative;
+      padding-left: 1.3rem;
+    }
+
+    .footer-links a::before {
+      content: "\f105";
+      font-family: "Font Awesome 6 Free";
+      font-weight: 900;
+      position: absolute;
+      left: 0;
+      transition: var(--transition-normal);
+    }
+
+    .footer-links a:hover {
+      color: var(--accent);
+      padding-left: 1.8rem;
+    }
+
+    .footer-links a:hover::before {
+      left: 0.5rem;
+    }
+
+    .footer-social {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+
+    .footer-social-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      background-color: rgba(255, 255, 255, 0.1);
+      color: rgba(255, 255, 255, 0.8);
+      border-radius: var(--radius-full);
+      transition: var(--transition-normal);
+    }
+
+    .footer-social-icon:hover {
+      background-color: var(--accent);
+      color: var(--text-dark);
+      transform: translateY(-5px);
+    }
+
+    .copyright {
+      text-align: center;
+      padding: 1.5rem 0;
+      margin-top: 3rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    /* Back to top button */
+    .back-to-top {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      background: var(--primary-gradient);
+      color: white;
+      width: 50px;
+      height: 50px;
+      border-radius: var(--radius-full);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      cursor: pointer;
+      opacity: 0;
+      visibility: hidden;
+      transition: var(--transition-normal);
+      z-index: 999;
+      box-shadow: var(--shadow-md);
+    }
+
+    .back-to-top.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .back-to-top:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-lg);
+    }
+
+    /* Animations */
+    .reveal {
+      position: relative;
+      opacity: 0;
+      transform: translateY(30px);
+      transition: transform 0.8s ease, opacity 0.8s ease;
+    }
+
+    .reveal.active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Responsive Styles */
+    @media (max-width: 1200px) {
+      .container {
+        padding: 0 3rem;
+      }
+
+      .hero {
+        padding: 8rem 0 6rem;
+      }
+    }
+
+    @media (max-width: 992px) {
+      .nav-links {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 300px;
+        height: 100vh;
+        background-color: var(--white);
+        flex-direction: column;
+        gap: 0;
+        padding: 120px 2rem 2rem;
+        box-shadow: var(--shadow-lg);
+        transition: right 0.5s ease;
+        z-index: 1000;
+      }
+
+      .nav-links.active {
+        right: 0;
+      }
+
+      .nav-link {
+        width: 100%;
+        padding: 1rem 0;
+        border-bottom: 1px solid var(--border-light);
+      }
+
+      .mobile-menu-btn {
+        display: flex;
+      }
+
+      .hero h1 {
+        font-size: clamp(2rem, 4vw, 3rem);
+      }
+
+      .about-doctor {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+      }
+      
+      .doctor-img-container {
+        max-width: 500px;
+        margin: 0 auto;
+      }
+
+      .section {
+        padding: 5rem 0;
+      }
+
+      .section-sm {
+        padding: 3rem 0;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 0 2rem;
+      }
+
+      .top-info-content {
+        flex-direction: column;
+        gap: 0.8rem;
+      }
+
+      .contact-info {
+        justify-content: center;
+      }
+
+      .social-links {
+        justify-content: center;
+      }
+
+      .hero {
+        padding: 7rem 0 5rem;
+      }
+
+      .hero-subtitle {
+        font-size: 0.9rem;
+      }
+
+      .btn-group {
+        flex-direction: column;
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+      }
+
+      .section-header {
+        margin-bottom: 3rem;
+      }
+
+      .booking-container {
+        gap: 3rem;
+      }
+
+      .feature-item {
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem 1rem;
+      }
+
+      .feature-icon {
+        margin-bottom: 1rem;
+      }
+
+      .testimonial-card {
+        padding: 2rem 1.5rem;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .container {
+        padding: 0 1.5rem;
+      }
+
+      .contact-info {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      .section {
+        padding: 4rem 0;
+      }
+
+      .section-sm {
+        padding: 2.5rem 0;
+      }
+
+      .doctor-experience {
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+
+      .back-to-top {
+        right: 20px;
+        bottom: 20px;
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+      }
+
+      .booking-form {
+        padding: 2rem 1.5rem;
+      }
+
+      .service-content {
+        padding: 1.5rem;
+      }
+
+      .contact-info-box {
+        padding: 1.5rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Top Information Strip -->
+  <div class="top-info-strip">
+    <div class="container top-info-content">
+      <div class="contact-info">
+        <a href="tel:+919876543210"><i class="fas fa-phone-alt"></i> +91 98765 43210</a>
+        <a href="mailto:info@adityahomeoclinic.in"><i class="fas fa-envelope"></i> info@adityahomeoclinic.in</a>
+      </div>
+      <div class="social-links">
+        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header & Navigation -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <div class="logo">
+        <img src="logo.png" alt="Dr. Aditya Homeo Clinic Logo">
+        <div>
+          <span class="logo-text">Dr. Aditya Homeo Clinic</span>
+          <span class="tagline">Healing Naturally, Caring Personally</span>
+        </div>
+      </div>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#remedies" class="nav-link">Remedies</a>
+        <a href="#clinic" class="nav-link">Our Clinic</a>
+        <a href="#testimonials" class="nav-link">Testimonials</a>
+        <a href="#appointment" class="nav-link">Appointments</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <button class="btn btn-primary nav-cta d-none d-lg-block">Book Now</button>
+      <button class="mobile-menu-btn" id="mobileMenuBtn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container hero-content">
+      <div class="hero-subtitle">Welcome to Dr. Aditya Homeo Clinic</div>
+      <h1 class="heading-xl">Natural Healing for Lasting Health</h1>
+      <p>Experience the power of homeopathy with personalized treatment plans that address the root cause of illness, not just the symptoms.</p>
+      <div class="btn-group">
+        <a href="#appointment" class="btn btn-accent btn-lg btn-with-icon">
+          <span>Book an Appointment</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+        <a href="#services" class="btn btn-outline btn-lg">Explore Treatments</a>
+      </div>
+    </div>
+    
+    <div class="hero-decoration">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+      </svg>
+    </div>
+  </section>
+
+  <!-- Features Strip -->
+  <section class="features-strip">
+    <div class="container">
+      <div class="features-grid">
+        <div class="feature-item">
+          <div class="feature-icon">
+            <i class="fas fa-user-md"></i>
+          </div>
+          <div>
+            <div class="feature-text">12+ Years of Experience</div>
+            <small>Trusted healthcare since 2011</small>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <div>
+            <div class="feature-text">Darbhanga, Bihar</div>
+            <small>Convenient central location</small>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">
+            <i class="fas fa-language"></i>
+          </div>
+          <div>
+            <div class="feature-text">Multilingual Consultation</div>
+            <small>Hindi | Maithili | English</small>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">
+            <i class="fas fa-calendar-check"></i>
+          </div>
+          <div>
+            <div class="feature-text">Flexible Appointments</div>
+            <small>Online & In-Clinic Options</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Doctor Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-subtitle">About Our Doctor</div>
+        <h2 class="section-title heading-lg">Meet Dr. Aditya</h2>
+        <p class="section-description">A trusted homeopathic physician with over a decade of experience in natural healing and holistic treatments</p>
+      </div>
+      
+      <div class="about-doctor">
+        <div class="doctor-img-container reveal reveal-from-left">
+          <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=700&q=80" alt="Dr. Aditya" class="doctor-img">
+          <div class="doctor-experience">12+ Years Experience</div>
+        </div>
+        <div class="doctor-content reveal reveal-from-right">
+          <div>
+            <h3 class="doctor-name heading-md">Dr. Aditya Kumar</h3>
+            <p class="doctor-qualification">BHMS, MD (Homeopathy)</p>
+          </div>
+          <p>A dedicated homeopathic doctor with a passion for holistic healing and patient-centered care. Dr. Aditya has successfully treated thousands of patients with chronic and acute ailments using classical homeopathy principles.</p>
+          <ul class="doctor-qualifications">
+            <li>B.H.M.S (Bachelor of Homeopathic Medicine and Surgery)</li>
+            <li>M.D in Homeopathy with specialization in chronic diseases</li>
+            <li>Member of International Homeopathic Medical League</li>
+            <li>Certified in Advanced Clinical Homeopathy</li>
+            <li>Regular contributor to homeopathic research journals</li>
+          </ul>
+          <blockquote class="doctor-quote">
+            "My mission is to provide gentle, effective, and lasting treatment that addresses the root cause of illness while respecting the body's natural healing processes."
+          </blockquote>
+          <a href="#appointment" class="btn btn-primary btn-with-icon">
+            <span>Book Consultation</span>
+            <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services/Treatments Section -->
+  <section class="section section-light" id="services" style="background-color: var(--secondary);">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-subtitle">Our Specialties</div>
+        <h2 class="section-title heading-lg">Homeopathic Treatments</h2>
+        <p class="section-description">Comprehensive, personalized, and effective homeopathic solutions for a wide range of health concerns</p>
+      </div>
+      
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-img-container">
+            <img src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" alt="Skin Disorders" class="service-img">
+          </div>
+          <div class="service-content">
+            <div class="service-icon">
+              <i class="fas fa-spa"></i>
+            </div>
+            <h3 class="service-title">Skin Disorders</h3>
+            <p>Natural and effective homeopathic treatments for various skin conditions without side effects.</p>
+            <ul class="service-list">
+              <li>Psoriasis & Eczema</li>
+              <li>Acne & Pimples</li>
+              <li>Vitiligo Treatment</li>
+              <li>Fungal Infections</li>
+              <li>Allergic Dermatitis</li>
+            </ul>
+            <div class="service-footer">
+              <a href="#appointment" class="btn btn-outline btn-sm btn-with-icon">
+                <span>Consult Now</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-img-container">
+            <img src="https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" alt="Respiratory Issues" class="service-img">
+          </div>
+          <div class="service-content">
+            <div class="service-icon">
+              <i class="fas fa-lungs"></i>
+            </div>
+            <h3 class="service-title">Respiratory Issues</h3>
+            <p>Long-term relief from respiratory problems with personalized homeopathic care.</p>
+            <ul class="service-list">
+              <li>Asthma Management</li>
+              <li>Allergic Rhinitis</li>
+              <li>Chronic Sinusitis</li>
+              <li>Recurrent Cold & Cough</li>
+              <li>Bronchitis Treatment</li>
+            </ul>
+            <div class="service-footer">
+              <a href="#appointment" class="btn btn-outline btn-sm btn-with-icon">
+                <span>Consult Now</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-img-container">
+            <img src="https://images.unsplash.com/photo-1581056771107-24ca5f033842?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" alt="Pediatric Care" class="service-img">
+          </div>
+          <div class="service-content">
+            <div class="service-icon">
+              <i class="fas fa-child"></i>
+            </div>
+            <h3 class="service-title">Pediatric Care</h3>
+            <p>Gentle, safe, and effective homeopathic treatments for children of all ages.</p>
+            <ul class="service-list">
+              <li>Recurrent Infections</li>
+              <li>Behavioral Problems</li>
+              <li>Growth & Development</li>
+              <li>Attention Deficit</li>
+              <li>Digestive Issues</li>
+            </ul>
+            <div class="service-footer">
+              <a href="#appointment" class="btn btn-outline btn-sm btn-with-icon">
+                <span>Consult Now</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-img-container">
+            <img src="https://images.unsplash.com/photo-1606206033857-027049fa1611?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" alt="Chronic Diseases" class="service-img">
+          </div>
+          <div class="service-content">
+            <div class="service-icon">
+              <i class="fas fa-heartbeat"></i>
+            </div>
+            <h3 class="service-title">Chronic Diseases</h3>
+            <p>Constitutional homeopathic treatment for managing chronic conditions naturally.</p>
+            <ul class="service-list">
+              <li>Diabetic Support</li>
+              <li>Hypertension</li>
+              <li>Thyroid Disorders</li>
+              <li>Arthritis & Joint Pain</li>
+              <li>Migraine Treatment</li>
+            </ul>
+            <div class="service-footer">
+              <a href="#appointment" class="btn btn-outline btn-sm btn-with-icon">
+                <span>Consult Now</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="text-center mt-5">
+        <a href="#appointment" class="btn btn-primary btn-with-icon">
+          <span>View All Treatments</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+    
+    <div class="section-wave">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+        <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+        <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+      </svg>
+    </div>
+  </section>
+
+  <!-- Why Choose Us Section -->
+  <section class="section section-light">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-subtitle">Our Advantages</div>
+        <h2 class="section-title heading-lg">Why Choose Us</h2>
+        <p class="section-description">What sets us apart in providing quality homeopathic care</p>
+      </div>
+      
+      <div class="services-grid">
+        <div class="feature-card">
+          <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80" alt="Experienced Doctor" class="feature-card-img">
+          <h3 class="feature-card-title heading-sm">Experienced Doctor</h3>
+          <p class="feature-card-text">With over 12 years of clinical experience, Dr. Aditya brings expertise and compassion to every consultation.</p>
+        </div>
+        
+        <div class="feature-card">
+          <img src="https://images.unsplash.com/photo-1516841273335-e39b37888115?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80" alt="Personalized Treatment" class="feature-card-img">
+          <h3 class="feature-card-title heading-sm">Personalized Treatment</h3>
+          <p class="feature-card-text">Each patient receives a customized treatment plan based on their unique symptoms and constitution.</p>
+        </div>
+        
+        <div class="feature-card">
+          <img src="https://images.unsplash.com/photo-1573497620053-ea5300f94f21?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80" alt="Multiple Consultation Options" class="feature-card-img">
+          <h3 class="feature-card-title heading-sm">High Success Rate</h3>
+          <p class="feature-card-text">Thousands of satisfied patients who've experienced lasting health improvements and recovery.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Clinic Section -->
+  <section class="section clinic-section" id="clinic">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-subtitle">Our Facilities</div>
+        <h2 class="section-title heading-lg">Visit Our Clinic</h2>
+        <p class="section-description">A modern homeopathic clinic with comfortable environment and latest facilities for your healing journey</p>
+      </div>
+      
+      <div class="clinic-images">
+        <div class="clinic-image-wrap">
+          <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600&q=80" alt="Clinic Exterior" class="clinic-image">
+          <div class="clinic-caption">Clinic Exterior</div>
+        </div>
+        <div class="clinic-image-wrap">
+          <img src="https://media.istockphoto.com/id/2111795775/photo/visiting-the-hospital.jpg?s=1024x1024&w=is&k=20&c=7VrnX1zxKaf2ezFlK8QtbaW6yiSCu6-u6vxwEHNLDX8=" alt="Reception Area" class="clinic-image">
+          <div class="clinic-caption">Reception Area</div>
+        </div>
+        <div class="clinic-image-wrap">
+          <img src="https://plus.unsplash.com/premium_photo-1661436681623-7a7835979d0d?fm=jpg&amp;q=60&amp;w=3000&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Consultation Room" class="clinic-image">
+          <div class="clinic-caption">Consultation Room</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Homeopathic Remedies & Wellness Section -->
+  <section class="section remedies-section" id="remedies">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-subtitle">Natural Healing</div>
+        <h2 class="section-title heading-lg">Homeopathic Remedies & Wellness</h2>
+        <p class="section-description">Discover our natural approach to health and wellness</p>
+      </div>
+      
+      <div class="remedies-tabs">
+        <button class="tab-button active" data-tab="remedies">Homeopathic Remedies</button>
+        <button class="tab-button" data-tab="wellness">Wellness Approach</button>
+      </div>
+      
+      <div id="remediesTab" class="tab-content active">
+        <div class="remedies-grid">
+          <div class="remedy-item">
+            <div class="remedy-img-container">
+              <img src="https://images.unsplash.com/photo-1553101646-da1495bd14bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" alt="Homeopathic Medicines" class="remedy-img">
+            </div>
+            <div class="remedy-content">
+              <h3 class="remedy-title">Homeopathic Medicines</h3>
+              <p class="remedy-text">Our clinic uses high-quality, carefully selected homeopathic remedies that are safe, non-toxic, and effective for various conditions.</p>
+            </div>
+          </div>
+          
+          <div class="remedy-item">
+            <div class="remedy-img-container">
+              <img src="https://images.unsplash.com/photo-1588875150858-733ce1a7cbbb?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" alt="Natural Herbs" class="remedy-img">
+            </div>
+            <div class="remedy-content">
+              <h3 class="remedy-title">Natural Herbs</h3>
+              <p class="remedy-text">We incorporate knowledge of medicinal herbs and their properties to enhance our homeopathic treatments for holistic healing.</p>
+            </div>
+          </div>
+          
+          <div class="remedy-item">
+            <div class="remedy-img-container">
+              <img src="https://images.unsplash.com/photo-1507973977269-348dd99e7c3f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" alt="Herbal Preparations" class="remedy-img">
+            </div>
+            <div class="remedy-content">
+              <h3 class="remedy-title">Personalized Remedies</h3>
+              <p class="remedy-text">Each homeopathic remedy is selected based on your unique symptoms pattern, constitution, and medical history for optimal results.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div id="wellnessTab" class="tab-content">
+        <div class="remedies-grid">
+          <div class="remedy-item">
+            <div class="remedy-img-container">
+              <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" alt="Holistic Wellness" class="remedy-img">
+            </div>
+            <div class="remedy-content">
+              <h3 class="remedy-title">Holistic Wellness</h3>
+              <p class="remedy-text">We address the mind-body connection in our approach, considering emotional and physical factors for complete healing.</p>
+            </div>
+          </div>
+          
+          <div class="remedy-item">
+            <div class="remedy-img-container">
+              <img src="https://images.unsplash.com/photo-1506126279646-a697353d3166?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" alt="Meditation & Healing" class="remedy-img">
+            </div>
+            <div class="remedy-content">
+              <h3 class="remedy-title">Mind-Body Practices</h3>
+              <p class="remedy-text">Guidance on mindfulness and stress reduction techniques that complement your homeopathic treatment for enhanced healing.</p>
+            </div>
+          </div>
+          
+          <div class="remedy-item">
+            <div class="remedy-img-container">
+              <img src="https://images.unsplash.com/photo-1470058869958-2a77ade41c02?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" alt="Natural Healing" class="remedy-img">
+            </div>
+            <div class="remedy-content">
+              <h3 class="remedy-title">Natural Healing</h3>
+              <p class="remedy-text">We emphasize working with your body's natural healing mechanisms rather than suppressing symptoms for long-term health.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Natural Remedies Section -->
+  <section class="section" style="background-color: var(--off-white);">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-subtitle">Our Approach</div>
+        <h2 class="section-title heading-lg">Natural Healing Process</h2>
+        <p class="section-description">How we combine traditional homeopathic wisdom with modern medical understanding</p>
+      </div>
+      
+      <div class="about-doctor">
+        <div class="doctor-content reveal reveal-from-left">
+          <div>
+            <h3 class="heading-md text-primary">Holistic Treatment Philosophy</h3>
+          </div>
+          <p>At Dr. Aditya Homeo Clinic, we believe in treating the whole person, not just the disease. Our approach focuses on:</p>
+          <ul class="doctor-qualifications">
+            <li>Detailed case analysis to understand the root cause</li>
+            <li>Individualized remedy selection based on your unique symptoms</li>
+            <li>Gentle healing that works with your body's natural recovery process</li>
+            <li>Long-term health improvement rather than temporary symptom suppression</li>
+            <li>Lifestyle guidance to support overall wellbeing</li>
+          </ul>
+          <p>Our homeopathic medicines are prepared from natural substances and are highly diluted, making them safe for all age groups including infants, pregnant women, and the elderly.</p>
+          <a href="#appointment" class="btn btn-primary btn-with-icon mt-2">
+            <span>Learn More About Homeopathy</span>
+            <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+        <div class="reveal reveal-from-right">
+          <img src="https://images.unsplash.com/photo-1553101646-da1495bd14bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" alt="Homeopathic Medicines" style="border-radius: var(--radius-lg); box-shadow: var(--shadow-lg);">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="section testimonials-section" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-subtitle">Success Stories</div>
+        <h2 class="section-title heading-lg">Patient Testimonials</h2>
+        <p class="section-description">Hear from our patients who experienced the healing power of homeopathy</p>
+      </div>
+      
+      <div class="testimonials-container">
+        <div class="testimonial-slider-container">
+          <div class="testimonial-slider" id="testimonialSlider">
+            <div class="testimonial-card">
+              <div class="testimonial-content">
+                <p class="testimonial-text">"After suffering from migraines for over 5 years and trying various treatments with no success, Dr. Aditya's homeopathic approach finally gave me relief. It's been 8 months without a severe episode!"</p>
+                <div class="testimonial-author">
+                  <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100&q=80" alt="Sunita Mishra" class="author-img">
+                  <div class="author-info">
+                    <div class="author-name">Sunita Mishra</div>
+                    <div class="author-designation">Migraine Treatment</div>
+                  </div>
+                </div>
+                <div class="testimonial-rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+            
+            <div class="testimonial-card">
+              <div class="testimonial-content">
+                <p class="testimonial-text">"My son had recurrent respiratory infections that even antibiotics couldn't solve. Dr. Aditya's treatment strengthened his immunity naturally. It's been a full year without any major illness!"</p>
+                <div class="testimonial-author">
+                  <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100&q=80" alt="Rajesh Kumar" class="author-img">
+                  <div class="author-info">
+                    <div class="author-name">Rajesh Kumar</div>
+                    <div class="author-designation">Child's Respiratory Issues</div>
+                  </div>
+                </div>
+                <div class="testimonial-rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+            
+            <div class="testimonial-card">
+              <div class="testimonial-content">
+                <p class="testimonial-text">"I had severe psoriasis for 7 years and tried everything. Within 4 months of Dr. Aditya's treatment, I saw significant improvement. His holistic approach addressed not just my skin but overall health."</p>
+                <div class="testimonial-author">
+                  <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100&q=80" alt="Priya Jha" class="author-img">
+                  <div class="author-info">
+                    <div class="author-name">Priya Jha</div>
+                    <div class="author-designation">Psoriasis Treatment</div>
+                  </div>
+                </div>
+                <div class="testimonial-rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            
+            <div class="testimonial-card">
+              <div class="testimonial-content">
+                <p class="testimonial-text">"Dr. Aditya's online consultation was convenient and thorough. He took time to understand all my symptoms and the treatment has been very effective for my digestive issues. Highly recommended!"</p>
+                <div class="testimonial-author">
+                  <img src="https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100&q=80" alt="Amit Sharma" class="author-img">
+                  <div class="author-info">
+                    <div class="author-name">Amit Sharma</div>
+                    <div class="author-designation">Digestive Disorder</div>
+                  </div>
+                </div>
+                <div class="testimonial-rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="slider-nav">
+            <button class="slider-btn" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+            <button class="slider-btn" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+          </div>
+          
+          <div class="slider-dots" id="sliderDots">
+            <span class="slider-dot active"></span>
+            <span class="slider-dot"></span>
+            <span class="slider-dot"></span>
+            <span class="slider-dot"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Appointment Section -->
+  <section class="section appointment-section" id="appointment">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-subtitle">Schedule a Visit</div>
+        <h2 class="section-title heading-lg">Book an Appointment</h2>
+        <p class="section-description">Take the first step toward better health with a personalized consultation</p>
+      </div>
+      
+      <div class="booking-container">
+        <div class="booking-content reveal reveal-from-left">
+          <h3 class="booking-title heading-md">Start Your Healing Journey</h3>
+          <p>Schedule a consultation with Dr. Aditya to discuss your health concerns and explore homeopathic treatment options.</p>
+          <ul class="booking-benefits">
+            <li>Detailed assessment of your symptoms and health history</li>
+            <li>Personalized treatment plan tailored to your needs</li>
+            <li>Continuous support throughout your healing process</li>
+            <li>Follow-up consultations to monitor progress</li>
+            <li>Guidance on lifestyle modifications to support treatment</li>
+          </ul>
+          <p>Available for both in-person visits at our Darbhanga clinic and online video consultations.</p>
+          <div class="mt-2">
+            <span class="text-primary fw-medium">Have a quick question?</span>
+            <a href="tel:+919876543210" class="btn btn-outline btn-sm ms-2">
+              <i class="fas fa-phone-alt"></i> Call Us
+            </a>
+          </div>
+        </div>
+        
+        <div class="booking-form reveal reveal-from-right">
+          <form id="appointmentForm">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" class="form-control" placeholder="Enter your full name" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" class="form-control" placeholder="Enter your phone number" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" class="form-control" placeholder="Enter your email address" required>
+            </div>
+            <div class="form-group">
+              <label for="concern">Health Concern</label>
+              <input type="text" id="concern" class="form-control" placeholder="Primary health issue" required>
+            </div>
+            <div class="form-group">
+              <label for="appointmentType">Consultation Type</label>
+              <select id="appointmentType" class="form-control" required>
+                <option value="">Select consultation type</option>
+                <option value="in-clinic">In-clinic Visit</option>
+                <option value="online">Online Consultation</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="date">Preferred Date</label>
+              <input type="date" id="date" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-primary btn-with-icon" style="width: 100%;">
+              <span>Request Appointment</span>
+              <i class="fas fa-calendar-check"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="section faq-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-subtitle">Common Questions</div>
+        <h2 class="section-title heading-lg">Frequently Asked Questions</h2>
+        <p class="section-description">Find answers to common questions about homeopathy and our treatments</p>
+      </div>
+      
+      <div class="faq-container">
+        <div class="faq-item">
+          <div class="faq-question">How does homeopathy work?</div>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              <p>Homeopathy works on the principle of "like cures like," using highly diluted substances that would cause symptoms in a healthy person to treat similar symptoms in a sick person. It stimulates the body's natural healing processes to restore balance and health rather than merely suppressing symptoms.</p>
+              <p>The homeopathic approach considers each person's unique symptom pattern, constitution, and emotional state when prescribing remedies, making it a truly personalized form of medicine.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question">Is homeopathy safe for children and pregnant women?</div>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              <p>Yes, homeopathic remedies are generally safe for children, pregnant women, and elderly people when prescribed by a qualified homeopath. The remedies are highly diluted and work gently without the side effects associated with conventional medications.</p>
+              <p>In fact, homeopathy is often particularly effective for children, whose vitality and response to natural treatment tends to be strong.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question">How long does homeopathic treatment take to show results?</div>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              <p>The timeline for seeing results varies depending on the condition, its severity, and how long you've had it. Acute conditions may respond within hours or days, while chronic conditions might take weeks or months to show significant improvement.</p>
+              <p>Homeopathy addresses the root cause rather than just managing symptoms, which can take time but leads to more lasting results. During your treatment, Dr. Aditya will monitor your progress and adjust remedies as needed.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question">Can I take homeopathic remedies alongside conventional medicine?</div>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              <p>In most cases, yes. Homeopathic remedies generally don't interact with conventional medications. However, it's important to inform both your homeopath and conventional doctor about all treatments you're receiving.</p>
+              <p>Never discontinue prescribed conventional medication without consulting the doctor who prescribed it. Dr. Aditya believes in an integrative approach and will work with your current treatment plan.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question">What should I expect during my first consultation?</div>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              <p>The first consultation is comprehensive and typically lasts 45-60 minutes. Dr. Aditya will take a detailed case history, asking questions about your physical symptoms, medical history, mental and emotional state, lifestyle, and preferences.</p>
+              <p>This holistic approach helps in finding the most suitable remedy for your unique constitution and condition. You're encouraged to bring any relevant medical reports and a list of current medications to your first visit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-subtitle">Get in Touch</div>
+        <h2 class="section-title heading-lg">Contact Us</h2>
+        <p class="section-description">Reach out to us for any queries or information</p>
+      </div>
+      
+      <div class="contact-grid">
+        <div class="contact-info-box">
+          <div class="contact-icon">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <h4 class="contact-detail">Visit Us</h4>
+          <div class="contact-text">
+            <p>123 Healing Street, Near City Hospital</p>
+            <p>Darbhanga, Bihar - 846004</p>
+          </div>
+        </div>
+        
+        <div class="contact-info-box">
+          <div class="contact-icon">
+            <i class="fas fa-phone-alt"></i>
+          </div>
+          <h4 class="contact-detail">Call Us</h4>
+          <div class="contact-text">
+            <a href="tel:+919876543210">+91 98765 43210</a>
+            <a href="tel:+911234567890">+91 12345 67890</a>
+          </div>
+        </div>
+        
+        <div class="contact-info-box">
+          <div class="contact-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <h4 class="contact-detail">Email Us</h4>
+          <div class="contact-text">
+            <a href="mailto:info@adityahomeoclinic.in">info@adityahomeoclinic.in</a>
+            <a href="mailto:appointment@adityahomeoclinic.in">appointment@adityahomeoclinic.in</a>
+          </div>
+        </div>
+        
+        <div class="contact-info-box">
+          <div class="contact-icon">
+            <i class="fas fa-clock"></i>
+          </div>
+          <h4 class="contact-detail">Clinic Hours</h4>
+          <div class="contact-text">
+            <p>Monday - Saturday: 10:00 AM - 8:00 PM</p>
+            <p>Sunday: 10:00 AM - 2:00 PM</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28654.31882140433!2d85.87937499999999!3d26.151256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39edcd31ff92f44d%3A0x9b68ef8379f6fe87!2sDarbhanga%2C%20Bihar!5e0!3m2!1sen!2sin!4v1625123456789!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h4>Dr. Aditya Homeo Clinic</h4>
+        <p class="footer-about-text">Providing natural and effective homeopathic treatments since 2011. Our mission is to help patients achieve optimal health through gentle, personalized care that addresses the root cause of illness.</p>
+        <div class="footer-social">
+          <a href="#" class="footer-social-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="footer-social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="footer-social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="footer-social-icon"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Dr. Aditya</a></li>
+          <li><a href="#services">Our Treatments</a></li>
+          <li><a href="#remedies">Remedies</a></li>
+          <li><a href="#clinic">Our Clinic</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#appointment">Book Appointment</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-col">
+        <h4>Our Treatments</h4>
+        <ul class="footer-links">
+          <li><a href="#services">Skin Disorders</a></li>
+          <li><a href="#services">Respiratory Issues</a></li>
+          <li><a href="#services">Pediatric Care</a></li>
+          <li><a href="#services">Chronic Diseases</a></li>
+          <li><a href="#services">Women's Health</a></li>
+          <li><a href="#services">Digestive Disorders</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-col">
+        <h4>Patient Resources</h4>
+        <ul class="footer-links">
+          <li><a href="#">First Visit Guide</a></li>
+          <li><a href="#">Homeopathy FAQs</a></li>
+          <li><a href="#">Health Articles</a></li>
+          <li><a href="#">Remedy Information</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="copyright">
+      <div class="container">
+        &copy; 2025 Dr. Aditya Homeo Clinic. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <a href="#" class="back-to-top" id="backToTop">
+    <i class="fas fa-chevron-up"></i>
+  </a>
+
+  <!-- Main JavaScript -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Make the reveal elements visible immediately
+      document.querySelectorAll('.reveal').forEach(el => {
+        el.classList.add('active');
+      });
+      
+      // Sticky Header
+      const header = document.querySelector('.header');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 100) {
+          header.classList.add('scrolled');
+        } else {
+          header.classList.remove('scrolled');
+        }
+      });
+      
+      // Mobile menu toggle
+      const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+      const navLinks = document.getElementById('navLinks');
+      
+      mobileMenuBtn.addEventListener('click', function() {
+        navLinks.classList.toggle('active');
+        const isOpen = navLinks.classList.contains('active');
+        mobileMenuBtn.innerHTML = isOpen ? '<i class="fas fa-times"></i>' : '<i class="fas fa-bars"></i>';
+      });
+      
+      // Close mobile menu when clicking a nav link
+      document.querySelectorAll('.nav-link').forEach(link => {
+        link.addEventListener('click', () => {
+          navLinks.classList.remove('active');
+          mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+        });
+      });
+      
+      // Active nav links on scroll
+      const sections = document.querySelectorAll('section[id]');
+      window.addEventListener('scroll', () => {
+        let current = '';
+        
+        sections.forEach(section => {
+          const sectionTop = section.offsetTop - 100;
+          const sectionHeight = section.offsetHeight;
+          if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
+            current = section.getAttribute('id');
+          }
+        });
+        
+        document.querySelectorAll('.nav-link').forEach(link => {
+          link.classList.remove('active');
+          if (link.getAttribute('href').substring(1) === current) {
+            link.classList.add('active');
+          }
+        });
+      });
+      
+      // FAQ accordion
+      const faqQuestions = document.querySelectorAll('.faq-question');
+      faqQuestions.forEach(question => {
+        question.addEventListener('click', () => {
+          // Close other open FAQs
+          faqQuestions.forEach(item => {
+            if (item !== question) {
+              item.classList.remove('active');
+            }
+          });
+          
+          question.classList.toggle('active');
+        });
+      });
+      
+      // Testimonial slider
+      const slider = document.getElementById('testimonialSlider');
+      const prevBtn = document.getElementById('prevBtn');
+      const nextBtn = document.getElementById('nextBtn');
+      const dots = document.querySelectorAll('.slider-dot');
+      
+      let slideIndex = 0;
+      const cardWidth = document.querySelector('.testimonial-card').offsetWidth + 32; // card width + gap
+      const maxSlides = slider.children.length - 1;
+      
+      // Set active dot
+      function updateDots(index) {
+        dots.forEach((dot, i) => {
+          dot.classList.toggle('active', i === index);
+        });
+      }
+      
+      // Slide to specific index
+      function slideTo(index) {
+        slider.scrollTo({
+          left: index * cardWidth,
+          behavior: 'smooth'
+        });
+        slideIndex = index;
+        updateDots(slideIndex);
+      }
+      
+      prevBtn.addEventListener('click', () => {
+        slideIndex = Math.max(slideIndex - 1, 0);
+        slideTo(slideIndex);
+      });
+      
+      nextBtn.addEventListener('click', () => {
+        slideIndex = Math.min(slideIndex + 1, maxSlides);
+        slideTo(slideIndex);
+      });
+      
+      // Dot navigation
+      dots.forEach((dot, i) => {
+        dot.addEventListener('click', () => {
+          slideTo(i);
+        });
+      });
+
+      // Tabs for Remedies & Wellness
+      const tabButtons = document.querySelectorAll('.tab-button');
+      const tabContents = document.querySelectorAll('.tab-content');
+      
+      tabButtons.forEach(button => {
+        button.addEventListener('click', () => {
+          // Remove active class from all buttons and contents
+          tabButtons.forEach(btn => btn.classList.remove('active'));
+          tabContents.forEach(content => content.classList.remove('active'));
+          
+          // Add active class to clicked button and corresponding content
+          button.classList.add('active');
+          document.getElementById(button.dataset.tab + 'Tab').classList.add('active');
+        });
+      });
+      
+      // Form submission
+      const appointmentForm = document.getElementById('appointmentForm');
+      appointmentForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        // Show success message (in real implementation, you'd send the data to server)
+        const formFields = this.elements;
+        const btn = this.querySelector('button[type="submit"]');
+        const originalText = btn.innerHTML;
+        
+        btn.disabled = true;
+        btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Processing...';
+        
+        // Simulate form submission
+        setTimeout(() => {
+          // Reset form
+          this.reset();
+          
+          // Show success message
+          btn.innerHTML = '<i class="fas fa-check"></i> Appointment Requested!';
+          btn.style.backgroundColor = '#28a745';
+          
+          // Alert for demo (would be replaced with a nicer modal in production)
+          alert('Thank you! Your appointment request has been received. We will contact you shortly to confirm your appointment.');
+          
+          // Reset button after delay
+          setTimeout(() => {
+            btn.disabled = false;
+            btn.innerHTML = originalText;
+            btn.style.backgroundColor = '';
+          }, 2000);
+        }, 1500);
+      });
+      
+      // Back to top button
+      const backToTopButton = document.getElementById('backToTop');
+      
+      window.addEventListener('scroll', () => {
+        if (window.pageYOffset > 300) {
+          backToTopButton.classList.add('active');
+        } else {
+          backToTopButton.classList.remove('active');
+        }
+      });
+      
+      backToTopButton.addEventListener('click', (e) => {
+        e.preventDefault();
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+</html>
